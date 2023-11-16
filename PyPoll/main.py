@@ -31,8 +31,7 @@ for candidate, votes in candidates.items():
         winner_votes = votes
 
 # Calculate each candidate's percentage of votes won. 
-# Starting by defining a format and a results list.
-percentage_format = "{:.3%}"
+# Starting by defining a results list.
 results = []
 
 for candidate, votes in candidates.items():
